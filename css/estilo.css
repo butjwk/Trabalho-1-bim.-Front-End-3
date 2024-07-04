@@ -1,0 +1,275 @@
+*{
+	font-family: segoe UI, comfortaa, bahnschrift light, monospace;
+}
+.pai{
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+.corpo{
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	background-color: #dbdbdb;
+}
+.cabecalho{
+	flex-direction: row;
+	display: flex;
+	width: 100%;
+	height: 10vh;
+	justify-content: space-between;
+	background-color: #124682;
+}
+.menu{
+	flex-direction: row;
+	display: flex;
+	justify-content: space-around;
+	background-color: #124682;
+	height: 100%;
+	width: 80%;
+	align-items: center;
+}
+.logo{
+	display: flex;
+	height: 100%;
+	width: auto;
+}
+.logo img{
+	height: 100%;
+	width: auto;
+}
+.item{
+	display: flex;
+	justify-content: center;
+	border-radius: 8px;
+	background-color: #40B2F7;
+	width: 60px;
+}
+a{
+	color: #000000;
+	text-decoration: none;
+	font-size: 15px;
+}
+.conteudo{
+	height: auto ;
+	width: 70%;
+}
+.banner img{
+	margin: 5px 0px 5px 20vh;
+	width: 80%;
+	height: auto;
+}
+.labela{
+	width: 100%;
+	height: auto;
+	display: flex;
+	justify-content: center;
+}
+.label{
+	background-color: #40B2F7;
+	border-radius: 10px;
+	font-size: 20px;
+}
+.links{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 30%;
+	height: auto;
+}
+.concApe{
+	width: 100%;
+	height: auto;
+	margin: 10px;
+}
+.concApe img{
+	width: 100%;
+	height: auto;
+}
+.aldeoes{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: auto;
+	margin: 10px;
+}
+.aldeoes img{
+	width: 30vh;
+	height: auto;
+	border-radius: 50%;
+}
+.sobre{
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	height: auto;
+	margin: 10px;
+}
+.sobre img{
+	width: 30vh;
+	height: auto;
+	border-radius: 50%;
+}
+.te{
+	background-color: #c5c5c5;
+	width: 80%;
+	height: auto;
+	margin-left: 20vh;
+}
+.coco{
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	width: 100%;
+	color: #000000;
+	height: auto;
+}
+
+.rodape{
+	display: flex;
+	flex-direction: row;
+	height: 10vh;
+	width: 100%;
+	background-color: #124682;
+}
+.rodape img{
+	height: 100%;
+	width: auto;
+}
+.logo2{
+	width: 20%;
+	height: 100%;
+}
+.blabla{
+	align-items: center;
+	width: 60%;
+	display: flex;
+	justify-content: center;
+	text-align: center;
+	color: #000000;
+	text-decoration: none;
+}
+.corpo2{
+	width: 100%;
+	height: auto;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	background-color: #dbdbdb;
+}
+.casaveis{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	width: 100%;
+	height: auto;
+	justify-content: center;
+}
+.ncasa{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	width: 100%;
+	height: auto;
+	justify-content: center;
+}
+.ald{
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+	align-items: center;
+	margin: 5px;
+	width: 24%;
+	height: auto;
+	background-color: #539d46;
+}
+.label2{
+	background-color: #40B2F7;
+	border-radius: 10px;
+	font-size: 25px;
+	height: 32px;
+	margin-top: 7px;
+	margin: 5px;
+}
+.ald img{
+	margin-top: 5px;
+	width: 150px;
+	height: auto;
+}
+.desc{
+	text-align: justify;
+	margin: 7px;
+	font-family: Cascadia Mono Light;
+
+}
+.nomes{
+	font-family: Cascadia Mono;
+	font-size: 2vh;
+	color: #24451e;
+}
+.vinwil{
+	justify-content: center;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	width: 100%;
+	height: auto;
+}
+.video{
+	width: 100%;
+	flex-direction: row;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 5px;
+}
+.sinp{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+.resum{
+	width: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-wrap: wrap;
+	flex-direction: row;
+}
+.resume{
+	background-color: #c5c5c5;
+	width: 50%;
+	height: auto;
+}
+.dir{
+	justify-content: space-between;
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: auto;
+	align-items: center;
+}
+.conApe{
+	width: 35%;
+	height: auto;
+}
+.conApe img{
+	width: 100%;
+	height: auto;
+}
+.footo{
+	display: flex;
+	justify-content: center;
+	width: 30%;
+	height: auto;
+}
+.bliblo{
+	display: flex;
+	justify-content: center ;
+	width: 55%;
+	height: auto;
+}
